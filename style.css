@@ -1,80 +1,29 @@
-a {
+/* p {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+#style2 {
+background-color: pink;
+border: 2px solid black;
+}
+.style1 {
+    background-color: aqua;
     color: black;
-    text-decoration: none;
+    border: none !important;
 }
 
-a:visited {
-    color: aqua;
-}
+p {
+    background-color: gray;
+} */
 
-a:hover {
+body {
     color: red;
+    border: 1px solid #000;
+    margin-bottom: 30px;
 }
 
-a:active {
-    color: green;
-}
-
-a:focus {
-    font-weight: bold;
-}
-
-p::first-letter {
-    font-size: 40px;
-}
-
-p::first-line {
-    text-decoration: underline;
-}
-
-p::selection {
-    background-color: yellowgreen;
-}
-
-h1::before {
-    content: "This is ";
-}
-
-h1::after {
-    content: " channel";
-}
-
-.list1 li:first-child {
-    color: blue;
-}
-
-.list1 li:last-child {
-    color: green;
-}
-
-.list2 li:nth-child(even) {
-    color: blue;
-}
-
-.list2 li:nth-child(odd) {
-    color: green;
-}
-
-.list3 li:nth-child(3n + 1) {
-    font-weight: bold;
-}
-
-.list3 li:nth-child(4n + 2) {
-    border: 1px solid blue;
-}
-
-.text span:last-of-type {
-    color: green;
-}
-
-.text span:first-of-type{
-    color: red;
-}
-
-.text span:nth-of-type(2) {
-    border: 1px solid blue
-}
-
-.list4 li:not(.item) {
-    color: pink;
+p {
+    border: inherit;
+    margin: inherit;
 }
