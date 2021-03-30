@@ -1,47 +1,80 @@
-h1,
-h2,
-span {
-    color: red;
+a {
+    color: black;
+    text-decoration: none;
 }
 
-div p {
-    color: green;
-}
-
-div p span {
-    color: blue;
-}
-
-ul li > span {
-    font-weight: bold;
-}
-
-ul li + li {
+a:visited {
     color: aqua;
 }
 
-br ~ p {
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+p::first-letter {
     font-size: 40px;
 }
 
-a[target] {
-    background-color: yellow;
+p::first-line {
+    text-decoration: underline;
 }
 
-a[target="_blank"] {
-    background-color: blue;
-}
-/* start of str */
-a[href^="http://123"] {
-    background-color: aqua;
+p::selection {
+    background-color: yellowgreen;
 }
 
-/* end of str */
-a[href$=".jpg"] {
-    background-color: teal;
+h1::before {
+    content: "This is ";
 }
 
-/* all str */
-a[href*="link"] {
-    background-color: rebeccapurple;
+h1::after {
+    content: " channel";
+}
+
+.list1 li:first-child {
+    color: blue;
+}
+
+.list1 li:last-child {
+    color: green;
+}
+
+.list2 li:nth-child(even) {
+    color: blue;
+}
+
+.list2 li:nth-child(odd) {
+    color: green;
+}
+
+.list3 li:nth-child(3n + 1) {
+    font-weight: bold;
+}
+
+.list3 li:nth-child(4n + 2) {
+    border: 1px solid blue;
+}
+
+.text span:last-of-type {
+    color: green;
+}
+
+.text span:first-of-type{
+    color: red;
+}
+
+.text span:nth-of-type(2) {
+    border: 1px solid blue
+}
+
+.list4 li:not(.item) {
+    color: pink;
 }
