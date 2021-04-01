@@ -1,36 +1,24 @@
-.wrapper,
-.wrapper2,
-.item {
-    padding: 20px;
-    color: white;
+@font-face {
+    font-family: 'Roboto';
+    src: url(/Roboto-Regular.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
-.wrapper:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-.wrapper {
-    background-color: grey;
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.wrapper2 {
-    background-color: green;
+h1 {
+    color: blueviolet;
+    text-decoration: line-through overline underline;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-align: right;
 }
 
-.item {
-    float: left;
-    width: 150px;
-}
-
-.item1 {
-    background-color: crimson;
-}
-
-.item2 {
-    background-color: cyan;
-}
-
-.item3 {
-    background-color: blueviolet;
+p {
+    text-align: justify;
+    text-indent: 20px;
 }
