@@ -7,27 +7,22 @@ body {
     align-items: center;
   }
   
-.wrapper {
+.example {
     border: 2px solid black;
-    height: 169px;
-  
-    /* overflow: hidden; */
-}
-  
-img {
-    transition: all 1s ease;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+    /* transition-duration: 500ms, 2s; */
+    /* transition-property: all; */
+    /* transition-property: transform, background-color;
+    transition-delay: 0, 500ms;
+    transition-timing-function: linear; */
     
-    /* transform-origin: right top; */
+    transition: all .2s ease .5s;
 }
 
-img:hover {
-    /* transform: rotate(180deg); */
-    /* transform: scale(0.2, 1.2); */
-    /* transform: scaleY(0.5); */
-
-    /* transform: scale(1.2); */
-    /* transform: translate(50px, 80px); */
-    /* transform: skew(21deg, 21deg); */
-
-    transform: rotate(90deg);
+.example:hover{
+    background-color: red;
+    transform: scale(1.2);
 }
