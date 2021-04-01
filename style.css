@@ -1,32 +1,14 @@
-.example {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    margin: 20px;
-  
-    border: 10px ridge red;
-    border-right-style: none;
+.first {
+    /* Вырывает из потока документа */
+    display: none;
 }
 
-.example {
-    outline: 25px solid aqua;
+.second {
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    /* color: transparent; */
 }
 
-button:focus,
-input:focus {
-    outline: 1px solid aqua;
-}
-
-.shadow {
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    margin: 20px;
-
-    box-shadow: 6px 7x 5px blue;
-    box-shadow: 1px 2px 5px red, -1px -2px 5px blue;
-}
-
-h1 {
-    text-shadow: 1px 2px 5px red, 1px 2px 5px green, 1px 2px 5px yellowgreen;
-}
+/* 
+    Вендорные префиксы используются для кроссбаузерной верстки и свойств, которые частично поддерживаются в отдельных браузерах
+*/
