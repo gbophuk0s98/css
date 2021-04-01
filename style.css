@@ -1,30 +1,27 @@
 body {
     padding: 0;
     margin: 0;
+
+    background-color: blue;
 }
 
 .wrapper {
     min-height: 100vh;
     width: 100%;
-
-    /* background-color: gainsboro; */
-
-    /* background-image: url(https://vjoy.cc/wp-content/uploads/2020/11/bezymyannyj-15.jpg); */
-    /* background-size: contain; */
-    /* background-size: cover; */
-    /* background-size: 500px 250px; */
-    /* background-repeat: no-repeat; */
-    /* background-repeat: repeat-x; */
-    /* background-repeat: repeat-y; */
-    /* background-position: right center; */
-    /* background-position: 50% 50%; */
-    /* background-attachment: fixed; */
-
-    /* background: gainsboro
-    url(https://vjoy.cc/wp-content/uploads/2020/11/bezymyannyj-15.jpg)
-    50% 50% no-repeat fixed; */
-
     
-    /* background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png) center no-repeat,
-    url(https://vjoy.cc/wp-content/uploads/2020/11/bezymyannyj-15.jpg); */
+    /* background-image: linear-gradient(90deg, red, transparent); */
+    /* background-image: linear-gradient(to top right, red, orange, yellow, green, aqua, blue); */
+    /* background-image: linear-gradient(to top right, red 10%, orange 50%, yellow 70%, green, aqua, blue); */
+    /* background: linear-gradient(45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%); */
+    /* background: repeating-linear-gradient(45deg, yellow 25px, black 25px, black 50px, yellow 50px, yellow 75px, black 75px); */
+
+    /* background: radial-gradient(ellipse, aqua, red); */
+    /* background: radial-gradient(circle, aqua, red); */
+    /* background: radial-gradient(circle closest-side, aqua, red); */
+    /* background: radial-gradient(circle closest-corner, aqua, red); */
+    /* background: radial-gradient(circle farthest-side, aqua, red); */
+    /* background: radial-gradient(circle farthest-corner, aqua, red); */
+    /* background: radial-gradient(circle circle, aqua 80%, red 20%); */
+    /* background: repeating-radial-gradient(circle, aqua 20%, red 50%); */
+    background: repeating-radial-gradient(circle, aqua 20px, red 80px);
 }
