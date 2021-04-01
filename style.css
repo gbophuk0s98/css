@@ -1,27 +1,25 @@
 body {
     padding: 0;
     margin: 0;
-
-    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.wrapper {
-    min-height: 100vh;
-    width: 100%;
-    
-    /* background-image: linear-gradient(90deg, red, transparent); */
-    /* background-image: linear-gradient(to top right, red, orange, yellow, green, aqua, blue); */
-    /* background-image: linear-gradient(to top right, red 10%, orange 50%, yellow 70%, green, aqua, blue); */
-    /* background: linear-gradient(45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%); */
-    /* background: repeating-linear-gradient(45deg, yellow 25px, black 25px, black 50px, yellow 50px, yellow 75px, black 75px); */
+img {
+    transition: all 1s ease;
+}
 
-    /* background: radial-gradient(ellipse, aqua, red); */
-    /* background: radial-gradient(circle, aqua, red); */
-    /* background: radial-gradient(circle closest-side, aqua, red); */
-    /* background: radial-gradient(circle closest-corner, aqua, red); */
-    /* background: radial-gradient(circle farthest-side, aqua, red); */
-    /* background: radial-gradient(circle farthest-corner, aqua, red); */
-    /* background: radial-gradient(circle circle, aqua 80%, red 20%); */
-    /* background: repeating-radial-gradient(circle, aqua 20%, red 50%); */
-    background: repeating-radial-gradient(circle, aqua 20px, red 80px);
+img:hover {
+    /* filter: blur(20px); */
+    /* filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.5)) */
+    /* filter: grayscale(80%); */
+    /* filter: brightness(150%); */
+    /* filter: contrast(150%); */
+    /* filter: hue-rotate(180deg); */
+    /* filter: invert(100%); */
+    /* filter: saturate(165%); */
+    /* filter: sepia(100%); */
+    /* filter: opacity(50%); */
 }
