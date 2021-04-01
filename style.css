@@ -1,40 +1,24 @@
-body {
+body{
     padding: 0;
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-.example {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-
-    /* animation-name:  myAnimation;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-    animation-fill-mode: forwards; */
-    
-    animation: bgChange 5s infinite, scaleChange 5s infinite;
 }
 
-.example:hover{
-    animation-play-state: paused;
+table,
+table * {
+    border: 1px solid #000;
+    max-width: 500px;
+    border-collapse: separate;
+    /* border-spacing: 10px 50px; */
+    caption-side: bottom;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
-@keyframes bgChange {
-    from { background-color: aqua; }
-    50% { background-color: red; }
-    to { background-color: green; }
-}
-
-@keyframes scaleChange {
-    from { transform: scale(1); }
-    50% { transform: scale(1.5); }
-    to { transform: scale(1); }
+.dis {
+    pointer-events: none;
 }
